@@ -1,6 +1,10 @@
 # Eurorack PD USB Power Supply
 
-USB-C PD powered Eurorack supply module with estimated +12 V, -12 V, and +5 V rails.
+USB-C PD powered Eurorack supply module inspired by "Powerline", with +12 V, -12 V, and +5 V rails, and extra short-circuit protection, reverse-voltage protection.
+
+Check the original Powerline design at:
+
+**https://github.com/Andreas-Dorfner/Powerline-USB-C**
 
 ## Hardware Preview
 
@@ -22,9 +26,6 @@ This module is designed to power a Eurorack system from a USB-C Power Delivery s
 | Output rails | +12 V, -12 V, +5 V |
 | Estimated output current | +12 V / 1.5 A, -12 V / 1.5 A, +5 V / 1.5 A |
 
-## Manufacturing
-
-Use `Gerber.zip` for PCB fabrication and `BOM.xlsx` for component sourcing/assembly reference. Review footprints, connector orientation, and regulator ratings before ordering boards or parts.
 
 ## Disclaimer
 
