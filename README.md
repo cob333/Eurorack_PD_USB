@@ -1,5 +1,7 @@
 # Eurorack PD USB Power Supply
 
+**2025-04-10 test result: Noise performance is poor. The noise appears to be caused by the non-linear behavior of the PTC, and a redesign is planned.**
+
 USB-C PD powered Eurorack supply module inspired by "Powerline", with +12 V, -12 V, and +5 V rails, and extra short-circuit protection, reverse-voltage protection.
 
 Check the original Powerline design at:
