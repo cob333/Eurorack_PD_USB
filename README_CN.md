@@ -1,7 +1,5 @@
 # Eurorack PD USB 电源模块
 
-**2025.4.10测试：电源噪声表现差，噪声来自于PTC的非线性特质，准备重新设计**
-
 这是一个由 USB-C PD 供电的 Eurorack 电源模块，灵感来自 “Powerline”。它提供 **+12V、-12V、+5V** 三路电源轨，并额外加入了短路保护和反向电压保护。
 
 原版 Powerline 设计见：
@@ -12,7 +10,7 @@
 
 | 正面 | 背面 |
 | --- | --- |
-| ![Eurorack PD USB 正面](images/Eurorack_PD_USB_Front.png) | ![Eurorack PD USB 背面](images/Eurorack_PD_USB_Back.png) |
+| ![Eurorack PD USB 正面](images/Eurorack_PD_USB_Front.jpg) | ![Eurorack PD USB 背面](images/Eurorack_PD_USB_Back.jpg) |
 
 ## 概述
 
@@ -26,11 +24,11 @@
 | 输入协议 | USB Power Delivery 3.0 |
 | 输入电压档位 | 20V |
 | 输出电源轨 | +12V, -12V, +5V |
-| 估计输出电流 | +12V / 1.5A, -12V / 1.5A, +5V / 1.5A |
+| 估计输出电流 | +12V / 1.5A, -12V / 1A, +5V / 800mA |
+
+![测试结果](images/Test.jpg)
 
 ## 免责声明
-
-该项目目前**尚未经过实际硬件测试验证**，现阶段应视为**未测试版本**。
 
 请自行承担制作、测试和使用风险，并在连接任何 Eurorack 模块前先完成充分验证。
 
